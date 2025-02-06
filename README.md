@@ -1,5 +1,4 @@
 # pyqt5-radiko-downloader
-
 Radiko-Downloader can record the [radiko.jp](https://radiko.jp/) programs outside of Japan.
 
 ```console
@@ -21,15 +20,11 @@ pyqt5-radiko-downloader
 └─ requirements.txt
 ```
 
-## Theme
-![base-ui](./sample/base-ui.png)
-![test-ui](./sample/test-ui.png)
-
 ## Warning
 **Please do not use this project for commercial use. Only for your personal, non-commercial use.**
 
 ## Technologies
-- `Python` : 3.9
+- `Python` : 3.12
 
 # Technical Details
 The authentication of PC(html5) version radkio validates user's location via IP address.
@@ -43,14 +38,21 @@ However, the android version of radkio validates user provided by GPS informatio
   $ cd pyqt5-radiko-downloader
   ```
 
-## Usage
+- Make sure you have **Python** installed on your system. Then, install the **required packages** by running the following command:
+  ```console
+  conda create -n radiko_env python=3.12
+  conda activate radiko_env
+  pip install -r requirements.txt
+  ```
 
+## Usage
 ```console
 python main_ui.py
 ```
 
+![base-ui](./sample/base-ui.png)
+![test-ui](./sample/test-ui.png)
 
 ## Reference
-[rajiko](https://github.com/jackyzy823/rajiko)
-[radiko-downloader](https://github.com/devhaaana/radiko-downloader.git)
-
+- [rajiko](https://github.com/jackyzy823/rajiko)
+- [radiko-downloader](https://github.com/devhaaana/radiko-downloader.git)
