@@ -21,6 +21,10 @@ pyqt5-radiko-downloader
 └─ requirements.txt
 ```
 
+## Theme
+![base-ui](./sample/base-ui.png)
+![test-ui](./sample/test-ui.png)
+
 ## Warning
 **Please do not use this project for commercial use. Only for your personal, non-commercial use.**
 
