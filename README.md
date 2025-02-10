@@ -25,6 +25,7 @@ pyqt5-radiko-downloader
 
 ## Technologies
 - `Python` : 3.12
+- `PyQt`
 
 # Technical Details
 The authentication of PC(html5) version radkio validates user's location via IP address.
