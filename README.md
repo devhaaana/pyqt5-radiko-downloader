@@ -28,8 +28,8 @@ pyqt5-radiko-downloader
 - `PyQt`
 
 # Technical Details
-The authentication of PC(html5) version radkio validates user's location via IP address.
-However, the android version of radkio validates user provided by GPS information, not via user's IP address.
+The authentication of PC(html5) version radiko validates user's location via IP address.
+However, the android version of radiko validates user provided by GPS information, not via user's IP address.
 
 # Getting Started
 ## Installation
